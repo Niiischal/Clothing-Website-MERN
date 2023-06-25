@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../src/offCanvasStyle.css'
 import Footer from './Footer'
 const Navbar = () => {
   return (
@@ -42,7 +43,7 @@ const Navbar = () => {
       <div className="offcanvas-body">
         <ul
           className="navbar-nav justify-content-end flex-grow-1 pe-3"
-          style={{ fontSize: "1.8rem", margin: "2rem 0 2rem 0", padding: "0 0 1.8rem 0" }}
+          style={{ fontSize: "1.5rem", margin: "2rem 0 2rem 0", padding: "0 0 1.8rem 0" }}
         >
           <li className="nav-item">
             <a className="nav-link active" aria-current="page" href="/home">
@@ -75,8 +76,6 @@ const Navbar = () => {
     </div>
   </div>
 </nav>
-
-
 </>
   )
 }

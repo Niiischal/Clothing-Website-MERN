@@ -1,0 +1,12 @@
+
+  @media (max-width : 992px) {
+    .offcanvas {
+      width : 250px !important;
+    }
+  }
+
+  @media (min-height: 710px) {
+    .offcanvas {
+      height : 70% !important;
+    }
+  }
