@@ -1,5 +1,4 @@
 import React from 'react'
-import '../../src/offCanvasStyle.css'
 import Footer from './Footer'
 const Navbar = () => {
   return (
