@@ -6,7 +6,7 @@ const Navbar = () => {
 <nav className="navbar bg-body-tertiary fixed-top">
   <div className="container-fluid">
     <a className="navbar-brand" href="/" style={{ fontFamily: "Ysabeau SC" }}>
-      StyleIt<span style={{ color: "#006600", fontSize: "1rem" }}>.</span>
+      StyleIt<span style={{ color: "#006600", fontSize: "1.5rem", letterSpacing: '2px' }}>.</span>
     </a>
     <button
       className="navbar-toggler"
@@ -42,7 +42,7 @@ const Navbar = () => {
       <div className="offcanvas-body">
         <ul
           className="navbar-nav justify-content-end flex-grow-1 pe-3"
-          style={{ fontSize: "1.5rem", margin: "2rem 0 2rem 0", padding: "0 0 1.8rem 0" }}
+          style={{ fontSize: "1.5rem", margin: "10px", padding: "0 0 1.8rem 0" }}
         >
           <li className="nav-item">
             <a className="nav-link active" aria-current="page" href="/home">
@@ -65,7 +65,7 @@ const Navbar = () => {
             </a>
           </li>
         </ul>
-        <p>
+        <p style={{margin:"15px"}}>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi ex, in deserunt
           error unde accusamus omnis neque quasi deleniti beatae eos necessitatibus culpa
           delectus molestiae accusantium odit esse voluptas obcaecati?
